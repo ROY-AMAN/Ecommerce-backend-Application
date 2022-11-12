@@ -1,5 +1,10 @@
 package roy.aman.EcommerceApplication.Repository;
 
-public interface CategoryRepo {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import roy.aman.EcommerceApplication.Entity.Category;
+
+
+public interface CategoryRepo extends JpaRepository<Category, Integer>{
 
 }

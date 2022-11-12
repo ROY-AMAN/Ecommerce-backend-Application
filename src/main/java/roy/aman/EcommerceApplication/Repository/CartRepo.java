@@ -1,5 +1,10 @@
 package roy.aman.EcommerceApplication.Repository;
 
-public interface CartRepo {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import roy.aman.EcommerceApplication.Entity.Cart;
+
+
+public interface CartRepo extends JpaRepository<Cart, Integer>{
 
 }

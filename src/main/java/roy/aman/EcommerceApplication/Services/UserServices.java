@@ -10,7 +10,7 @@ public interface UserServices {
 	
 	UserDto updateUserDetails(UserDto userDto, Integer UserId);
 	
-	ApiResponse loginAsUser (LoginDto loginDto, Integer userId);
+	boolean loginAsUser (LoginDto loginDto, Integer userId);
 	
 	ApiResponse deleteAccount(Integer userID);
 }

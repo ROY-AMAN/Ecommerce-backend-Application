@@ -1,5 +1,9 @@
 package roy.aman.EcommerceApplication.Repository;
 
-public interface UserRepo {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import roy.aman.EcommerceApplication.Entity.User;
+
+public interface UserRepo extends JpaRepository<User, Integer>{
 
 }
